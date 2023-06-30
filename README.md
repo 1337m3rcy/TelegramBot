@@ -1,18 +1,14 @@
-TelegramBot
+#TelegramBot
 
 Telegram bot for broadcasting video and photos from CCTV cameras
 Installation
 
-To install the necessary dependencies, run the following command in your console:
-
-bash
-
-pip install telebot
-
-Script for Sending Emails to Telegram Bot
-
-javascript
-
+  1. Для установки необходимых зависимостей:
+  '''console
+      pip install telebot
+  '''
+  2. Скрипт для отправки с почты в телеграмм бота:
+  '''javascript
 // The token of your Telegram bot
 var TOKEN = "<< Your bot token >>";
 
@@ -55,3 +51,4 @@ function sendPhoto(photo) {
   };
   UrlFetchApp.fetch("https://api.telegram.org/bot" + TOKEN + "/sendPhoto", options);
 }
+'''
