@@ -1,11 +1,15 @@
-# TelegramBot
+#TelegramBot
+
+
 Telegram bot for broadcasting video and photos from CCTV cameras
-Для установки необходимых зависимостей: 
+
+
+##Для установки необходимых зависимостей: 
 '''console
     pip install telebot
 '''
 
-Скрипт для отправки с почты в телеграмм бота:
+##Скрипт для отправки с почты в телеграмм бота:
  '''javascript
  // The token of your Telegram bot
  var TOKEN = "<< Your bot token >>";
